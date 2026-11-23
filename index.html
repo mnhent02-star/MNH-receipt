@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ▼▼▼ 고칠 곳 2군데 ▼▼▼
+  ① 아래 3곳의 https://script.google.com/macros/s/AKfycbwbbSdPIGlyuxx21Fu2YdD6o2boJGhqw3lcpL-ZIv6tvfMPSPYrT2NZ0i8cwDypZ4Ic/exec → Apps Script 배포 때 받은 웹 앱 URL (https://script.google.com/macros/s/..../exec)
+  ② 아래 1곳의 https://mnhent02-star.github.io/MNH-receipt/og-image.png → 이 페이지 주소 + og-image.png
+     예) https://mnhent02.github.io/receipt/og-image.png
+  ▲▲▲ 나머지는 그대로 두세요 ▲▲▲ -->
+
+<title>MNH 영수증 정리</title>
+<meta name="description" content="사진 한 장이면 법인카드 지출내역이 자동으로 정리돼요 · 직원 전용">
+
+<!-- 카카오톡 · 문자 · 슬랙 미리보기 -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MNH 영수증 정리">
+<meta property="og:description" content="사진 한 장이면 법인카드 지출내역이 자동으로 정리돼요 · 직원 전용">
+<meta property="og:image" content="https://mnhent02-star.github.io/MNH-receipt/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- 누르면 바로 영수증 앱으로 이동 -->
+<meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbwbbSdPIGlyuxx21Fu2YdD6o2boJGhqw3lcpL-ZIv6tvfMPSPYrT2NZ0i8cwDypZ4Ic/exec">
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#14161a;color:#fff;
+       font:16px/1.5 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;text-align:center;padding:24px}
+  a{display:inline-block;margin-top:16px;background:#ff4d2e;color:#fff;text-decoration:none;font-weight:800;border-radius:12px;padding:14px 26px}
+</style>
+</head>
+<body>
+  <div>
+    <div style="font-size:22px;font-weight:800">MNH 영수증 정리</div>
+    <div style="color:#9ca3af;margin-top:6px">앱으로 이동 중이에요…</div>
+    <a href="https://script.google.com/macros/s/AKfycbwbbSdPIGlyuxx21Fu2YdD6o2boJGhqw3lcpL-ZIv6tvfMPSPYrT2NZ0i8cwDypZ4Ic/exec">바로 열기</a>
+  </div>
+  <script>location.replace("https://script.google.com/macros/s/AKfycbwbbSdPIGlyuxx21Fu2YdD6o2boJGhqw3lcpL-ZIv6tvfMPSPYrT2NZ0i8cwDypZ4Ic/exec");</script>
+</body>
+</html>
